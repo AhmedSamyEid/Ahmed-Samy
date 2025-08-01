@@ -23,7 +23,7 @@ export default function Servicess() {
     {
       icon: <FaBolt className="text-3xl text-white transition-transform duration-300 group-hover:-translate-y-1 group-hover:text-yellow-400" />,
       title: "Performance & SEO Optimization",
-      description: "Boost your website's speed, search engine rankings, and user experience.",
+      description: "Boost your website s speed, search engine rankings, and user experience.",
       features: [
         "Core Web Vitals Optimization",
         "Technical SEO Implementation",

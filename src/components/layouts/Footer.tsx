@@ -13,7 +13,6 @@ export default function Footer() {
           <br /> modern technologies and thoughtful design.
         </p>
 
-        {/* أيقونات السوشيال ميديا */}
         <div className="mt-6 flex justify-center gap-6 text-3xl">
           <Link
             href="https://github.com/AhmedSamyEid?tab=repositories"
@@ -38,7 +37,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* خط سفلي */}
       <div className="mt-6 border-t border-gray-700 pt-4 text-sm text-gray-500">
         © {new Date().getFullYear()} Ahmed Samy. All rights reserved.
       </div>

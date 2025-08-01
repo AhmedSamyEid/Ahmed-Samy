@@ -13,7 +13,7 @@ export default function Hero() {
     { icon: <FaFileAlt className="text-gray-400" />, title: "Resume", desc: "Download my professional resume and experience.", link: "View Resume", href: "/resume" },
     { icon: <FaCommentDots className="text-gray-200" />, title: "Blog", desc: "Read my thoughts on technology and design.", link: "Read Articles", href: "/blog" },
     { icon: <FaStar className="text-yellow-400" />, title: "Testimonials", desc: "See what clients and colleagues say about my work.", link: "Read Reviews", href: "#" },
-    { icon: <FaPhoneAlt className="text-red-500" />, title: "Contact", desc: "Let's discuss your next project together.", link: "Get In Touch", href: "/contact" },
+    { icon: <FaPhoneAlt className="text-red-500" />, title: "Contact", desc: "Let s discuss your next project together.", link: "Get In Touch", href: "/contact" },
   ];
 
   return (

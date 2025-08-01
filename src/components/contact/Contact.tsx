@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto text-start mb-12">
         <h2 className="text-6xl font-bold">Contact</h2>
         <p className="text-gray-400 mt-2">
-          Let’s discuss your next project. Get in touch and let’s create something
+          Let’s discuss your next project. Get in touch and let s create something
           <br /> amazing together.
         </p>
       </div>
@@ -41,14 +41,13 @@ export default function Contact() {
       <div className="border-b border-gray-700 my-12 w-3/4 mx-auto"></div>
 
       <div className="text-start mb-12">
-        <h3 className="text-3xl font-bold text-center">Let's Work Together</h3>
+        <h3 className="text-3xl font-bold text-center">Let s Work Together</h3>
         <p className="text-gray-400 max-w-2xl mx-auto mt-2">
-          Ready to bring your ideas to life? I'm here to help you create exceptional digital experiences. Let's discuss your project and explore how we can collaborate.
+          Ready to bring your ideas to life? I m here to help you create exceptional digital experiences. Let s discuss your project and explore how we can collaborate.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-        {/* FORM */}
         <div className="md:col-span-2 p-6 rounded-lg shadow-lg">
           <h4 className="text-2xl font-semibold mb-6">Send Me a Message</h4>
           <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
@@ -107,7 +106,6 @@ export default function Contact() {
           </form>
         </div>
 
-        {/* CONTACT INFO */}
         <div className="space-y-6">
           <div>
             <h4 className="text-2xl font-semibold mb-5">Contact Information</h4>
