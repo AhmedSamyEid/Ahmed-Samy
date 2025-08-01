@@ -48,7 +48,7 @@ export default function About() {
         </div>
 
         <div className="flex justify-center">
-          <Image src="/image/ahmed.webp.jfif" alt="Ahmed Samy profile picture" width={450} height={450} className=" rounded-2xl shadow-xl object-cover" />
+          <Image src="/image/ahmed-samy.jpg" alt="Ahmed Samy" width={500} height={450} className=" rounded-2xl shadow-xl object-cover" />
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-4 text-center">
