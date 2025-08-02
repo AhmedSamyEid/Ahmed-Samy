@@ -29,9 +29,13 @@ export default function Hero() {
             beautiful design with robust functionality. Let s build <br />
             something amazing together.
           </p>
-          <button className="mt-6 bg-[#00adb5] hover:bg-[#007a80] transform hover:scale-105 transition duration-300 cursor-pointer text-white py-3 px-6 rounded-md">View My Work</button>
+          <div className="mt-10">
+            <Link href="/projects" className=" bg-[#00adb5] hover:bg-[#007a80] transform hover:scale-105 transition duration-300 cursor-pointer text-white py-3 px-6 rounded-md">
+              View My Work
+            </Link>
+          </div>
 
-          <div className="mt-6 flex gap-4 text-3xl">
+          <div className="mt-10 flex gap-4 text-3xl">
             <Link href="https://github.com/AhmedSamyEid?tab=repositories" target="_blank">
               <LuGithub className="text-gray-400 hover:text-white transform hover:scale-125 transition duration-300 ease-in-out" />
             </Link>
