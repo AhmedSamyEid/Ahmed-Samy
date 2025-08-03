@@ -33,7 +33,7 @@ export default function Resume() {
               <FaGithub /> github.com/AhmedSamyEid
             </Link>
 
-            <Link href="https://ahmedsamyeid.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition">
+            <Link href="https://ahmed-samy-beta.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition">
               <IoIosLink /> ahmedsamyeid.vercel.app
             </Link>
 
