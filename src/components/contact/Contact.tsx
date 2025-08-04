@@ -139,7 +139,7 @@ export default function Contact() {
               >
                 <FaLinkedin /> LinkedIn
               </Link>
-              <Link href="https://ahmedsamyeid.vercel.app" className="flex items-center justify-between px-4 py-2 rounded-md border border-gray-700 hover:bg-gray-800">
+              <Link href="https://ahmed-samy-beta.vercel.app/" className="flex items-center justify-between px-4 py-2 rounded-md border border-gray-700 hover:bg-gray-800">
                 🌐 Portfolio
               </Link>
             </div>
