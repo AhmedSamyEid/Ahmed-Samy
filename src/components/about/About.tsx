@@ -58,7 +58,7 @@ export default function About() {
           <div className="flex flex-col items-center space-y-2 border-r border-gray-500 last:border-r-0 md:last:border-r-0">
             <FaMapMarkerAlt className="text-red-500 text-2xl" />
             <span className="text-sm text-gray-400">Location</span>
-            <strong className="text-white font-semibold">El-Mahalla El-Kubra, Egypt</strong>
+            <strong className="text-white font-semibold">Cairo</strong>
           </div>
 
           <div className="flex flex-col items-center space-y-2 border-r border-gray-500 last:border-r-0 md:last:border-r-0">

@@ -42,7 +42,7 @@ export default function Resume() {
             </Link>
 
             <Link href="https://maps.google.com/?q=Cairo,Egypt" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition">
-              <FaMapMarkerAlt /> El-Mahalla El-Kubra, Egypt
+              <FaMapMarkerAlt /> Cairo
             </Link>
           </div>
 
