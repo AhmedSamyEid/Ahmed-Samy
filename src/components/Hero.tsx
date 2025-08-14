@@ -12,7 +12,7 @@ export default function Hero() {
     { icon: <FaTools className="text-yellow-500" />, title: "Skills", desc: "Discover my technical expertise and proficiencies.", link: "View Skills", href: "/skills" },
     { icon: <FaFileAlt className="text-gray-400" />, title: "Resume", desc: "Download my professional resume and experience.", link: "View Resume", href: "/resume" },
     { icon: <FaCommentDots className="text-gray-200" />, title: "Blog", desc: "Read my thoughts on technology and design.", link: "Read Articles", href: "/blog" },
-    { icon: <FaStar className="text-yellow-400" />, title: "Testimonials", desc: "See what clients and colleagues say about my work.", link: "Read Reviews", href: "#" },
+    { icon: <FaStar className="text-yellow-400" />, title: "Testimonials", desc: "See what clients and colleagues say about my work.", link: "Read Reviews", href: "/testimonials" },
     { icon: <FaPhoneAlt className="text-red-500" />, title: "Contact", desc: "Let s discuss your next project together.", link: "Get In Touch", href: "/contact" },
   ];
 
