@@ -118,7 +118,7 @@ export default function Contact() {
               +20 15 57017487
             </p>
             <p className="flex items-center mt-5 gap-2 text-gray-300">
-              <FaMapMarkerAlt /> El-Mahalla El-Kubra, Egypt
+              <FaMapMarkerAlt /> Cairo
             </p>
             <p className="flex items-center gap-2 text-gray-400 mt-5 text-sm ">
               <MdAccessTime className="text-2xl" />
