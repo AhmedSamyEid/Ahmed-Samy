@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaCalendarAlt, FaGlobe, FaRegBookmark } from "react-ico
 export default function About() {
   return (
     <section className="py-40">
-      <div className="container mx-auto text-start ">
+      <div className="container py-8 px-6 md:px-20 ">
         <h2 className="text-5xl font-bold mb-4 text-white">About Me</h2>
         <p className=" text-gray-300 text-xl max-w-xl">
           Get to know the person behind the work—my journey, passions, and what

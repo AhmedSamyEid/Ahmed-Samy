@@ -2,7 +2,7 @@
 export default function Blog() {
   return (
     <div className="min-h-screen bg-[#0a0f1c] text-gray-300 flex flex-col items-center justify-start py-30">
-      <div className="w-full max-w-4xl  text-start mb-20">
+      <div className="w-full max-w-4xl  py-10 px-6 md:px-20">
         <h1 className="text-5xl font-bold text-white mb-4">Testimonials</h1>
         <p className="text-lg text-gray-400">What clients and colleagues say about working with me...</p>
       </div>
