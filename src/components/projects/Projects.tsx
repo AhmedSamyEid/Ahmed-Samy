@@ -11,12 +11,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Execlusive-e-Commerce",
+    title: "E-Commerce",
     description:
-      "A modern, fully responsive e-commerce platform designed to provide users with a seamless online shopping experience. Includes features like product browsing, shopping cart, and secure payment integration, built with React and TypeScript for high performance and scalability.",
-    tech: ["React", "TypeScript"],
-    image: "/image/E-Commerce.png",
-    url: "https://execlusive-e-commerce.vercel.app/",
+      "A modern, fully responsive e-commerce platform designed to provide users with a seamless online shopping experience. Includes features like product browsing, shopping cart, and secure payment integration, built with Next and TypeScript for high performance and scalability.",
+    tech: ["Next.js", "TypeScript"],
+    image: "/image/E-Commerce-ui-kit.webp",
+    url: "https://e-commerce-ui-kit-sigma.vercel.app/",
   },
   {
     title: "Car Dealer Website",
@@ -26,6 +26,15 @@ const projects: Project[] = [
     image: "/image/car_dealer_website.png",
     url: "https://car-dealer-website-zeta.vercel.app/",
   },
+  {
+    title: "Execlusive-e-Commerce",
+    description:
+      "A modern, fully responsive e-commerce platform designed to provide users with a seamless online shopping experience. Includes features like product browsing, shopping cart, and secure payment integration, built with React and TypeScript for high performance and scalability.",
+    tech: ["React", "TypeScript"],
+    image: "/image/E-Commerce.png",
+    url: "https://execlusive-e-commerce.vercel.app/",
+  },
+
   {
     title: "Farm Website",
     description:
