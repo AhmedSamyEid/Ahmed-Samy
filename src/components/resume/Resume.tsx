@@ -46,7 +46,7 @@ export default function Resume() {
             </Link>
           </div>
 
-          <a href="/CV/AhmedSamy.pdf" download className="mt-6 bg-gray-800 hover:bg-gray-700 px-6 py-2 rounded-lg transition flex items-center gap-2 text-white w-fit">
+          <a href="/CV/Ahmed_Samy.pdf" download className="mt-6 bg-gray-800 hover:bg-gray-700 px-6 py-2 rounded-lg transition flex items-center gap-2 text-white w-fit">
             <FaDownload className="text-white" /> Download Resume PDF
           </a>
         </div>
