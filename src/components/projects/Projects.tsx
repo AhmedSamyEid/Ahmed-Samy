@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import useProjects from "./hooks/usrProjects";
 
-const { projects } = useProjects();
 export default function ProjectsPage() {
+  const { projects } = useProjects();
   return (
     <div className="bg-[#0a0f1c] min-h-screen py-30 px-6 md:px-20 text-white">
       <h1 className="text-6xl font-bold text-start mb-3">Projects</h1>
