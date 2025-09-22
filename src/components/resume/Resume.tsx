@@ -1,8 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaDownload } from "react-icons/fa";
-import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import Image from "next/image";
 import { IoIosLink } from "react-icons/io";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaDownload } from "react-icons/fa";
 
 export default function Resume() {
   return (

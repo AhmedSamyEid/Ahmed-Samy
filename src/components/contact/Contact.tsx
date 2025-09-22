@@ -1,33 +1,11 @@
 "use client";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 import { MdAccessTime } from "react-icons/md";
-import emailjs from "@emailjs/browser";
-import { useRef, useState } from "react";
+import useContact from "./hooks/useContact";
+import { FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Contact() {
-  const formRef = useRef<HTMLFormElement>(null);
-  const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState("");
-
-  const sendEmail = (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-    setStatus("");
-
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formRef.current!, "YOUR_PUBLIC_KEY")
-      .then(() => {
-        setLoading(false);
-        setStatus("✅ تم إرسال رسالتك بنجاح!");
-        formRef.current?.reset();
-      })
-      .catch(() => {
-        setLoading(false);
-        setStatus("❌ فشل إرسال الرسالة، حاول مرة أخرى.");
-      });
-  };
-
+  const { formRef, sendEmail, loading, status } = useContact();
   return (
     <section className="bg-[#0a0f1c] text-white py-30 px-4">
       <div className="max-w-6xl mx-auto text-start mb-12">

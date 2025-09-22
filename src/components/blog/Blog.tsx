@@ -1,4 +1,3 @@
-"use client";
 export default function Blog() {
   return (
     <div className="min-h-screen bg-[#0a0f1c] text-gray-300 flex flex-col items-center justify-start py-30">
