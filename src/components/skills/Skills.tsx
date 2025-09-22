@@ -21,7 +21,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="bg-[#0a0f1c] text-white py-30 px-4">
+    <section className="bg-[#0a0f1c] min-h-screen text-white py-30 px-6 md:px-20">
       <div className="max-w-6xl mx-auto text-start">
         <h2 className="text-6xl font-bold mb-2">Skills</h2>
         <p className="text-gray-400 mb-12">My technical expertise and proficiency levels across various technologies and tools.</p>

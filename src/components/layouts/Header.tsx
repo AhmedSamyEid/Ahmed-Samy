@@ -72,20 +72,20 @@ export default function Header() {
         </div>
 
         <nav className="relative">
-          <button className="md:hidden cursor-pointer text-3xl" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
+          <button className="lg:hidden cursor-pointer text-3xl" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
             {isOpen ? <HiX /> : <HiMenuAlt3 />}
           </button>
-
           <ul
             onMouseLeave={handleMouseLeave}
-            className={`absolute md:static top-14 right-0 
-  w-85 sm:w-150 md:w-100 lg:w-auto
-  md:flex md:gap-6 flex-col md:flex-row text-center 
-  rounded-lg md:rounded-none
-  backdrop-blur-md bg-[#222831]/80 md:bg-transparent 
-  shadow-md md:shadow-none
-  p-4 md:p-0 transition-all duration-300 ease-in-out 
-  ${isOpen ? "flex opacity-100 translate-y-0" : "hidden md:flex opacity-0 md:opacity-100 -translate-y-2 md:translate-y-0"}`}
+            className={`absolute lg:static top-16 right-6 
+            w-64 lg:w-auto
+            flex-col lg:flex-row text-center 
+            rounded-lg lg:rounded-none
+            backdrop-blur-md bg-[#222831]/90 lg:bg-transparent 
+            shadow-md lg:shadow-none
+            p-4 lg:p-0 transition-all duration-300 ease-in-out
+            ${isOpen ? "flex" : "hidden"} 
+            lg:flex lg:gap-6`}
           >
             {links.map((link) => (
               <li
